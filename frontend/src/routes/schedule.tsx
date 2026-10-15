@@ -1,4 +1,4 @@
-import { useQuery } from "react"
+import { useQuery } from "@tanstack/react-query"
 import { ErrorState, PageHeader, PageSkeleton } from "@/components/page"
 import { api } from "@/lib/api"
 import { useAuth } from "@/lib/auth"
