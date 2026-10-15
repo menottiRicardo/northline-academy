@@ -191,7 +191,7 @@ def seed(db: Session) -> None:
 
     assignment_plan = [
         ("homework", "Weekly practice 1", 20, -16),
-        ("quiz", "Quiz — foundations", 30, -9),
+        ("quiz", "Quiz \u2014 foundations", 30, -9),
         ("homework", "Weekly practice 2", 20, -2),
         ("exam", "Unit exam", 100, None),
     ]
@@ -228,7 +228,7 @@ def seed(db: Session) -> None:
                     raw = max_points * min(1.0, max(0.45, profiles[student_key] + _wobble(student_key, f"{code}:{title}")))
                     points = _round_points(category, raw, max_points)
                     if student_key == "owen" and category == "quiz" and code == "ALG2":
-                        comment = "Come by during tutorial — the factoring section is the one to redo."
+                        comment = "Come by during tutorial \u2014 the factoring section is the one to redo."
                     if student_key == "nora" and category == "exam":
                         comment = "Precise work. The last proof was especially clean."
                     if student_key == "avery" and code == "AMLIT" and category == "quiz":
