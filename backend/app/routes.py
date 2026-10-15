@@ -53,7 +53,7 @@ DEMOS = [
         "role": "student",
         "full_name": "Avery Chen",
         "email": "avery.chen@northline.edu",
-        "detail": "Grade 11 \u00b7 Rowan",
+        "detail": "Grade 11 · Rowan",
         "featured": True,
     },
     {
@@ -88,21 +88,21 @@ DEMOS = [
         "role": "student",
         "full_name": "Nora Kim",
         "email": "nora.kim@northline.edu",
-        "detail": "Grade 12 \u00b7 Birch",
+        "detail": "Grade 12 · Birch",
         "featured": False,
     },
     {
         "role": "student",
         "full_name": "Owen Walsh",
         "email": "owen.walsh@northline.edu",
-        "detail": "Grade 11 \u00b7 Cedar",
+        "detail": "Grade 11 · Cedar",
         "featured": False,
     },
     {
         "role": "student",
         "full_name": "Jordan Blake",
         "email": "jordan.blake@northline.edu",
-        "detail": "Grade 11 \u00b7 Lark",
+        "detail": "Grade 11 · Lark",
         "featured": False,
     },
 ]
