@@ -6,20 +6,16 @@ The demo term is Fall 2026. Scores, attendance, and notices are stored in a loca
 
 ## Run it
 
-Use two terminals from the project root.
+From the project root:
 
 ```bash
-cd backend
-python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
-.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8741
-```
-
-```bash
-cd frontend
 npm install
 npm run dev
 ```
+
+`npm install` creates `backend/.venv`, installs Python requirements into it, and installs the frontend packages. You can run `npm run setup` for the same install step without running the dev servers.
+
+`npm run dev` starts the API on port 8741 and the Vite app on port 4317.
 
 Open the Vite app. The dev server proxies `/api` to the FastAPI process on port 8741.
 

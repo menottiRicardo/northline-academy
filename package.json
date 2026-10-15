@@ -1,0 +1,9 @@
+{
+  "name": "northline-academy",
+  "private": true,
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "dev": "bash scripts/dev.sh",
+    "postinstall": "bash scripts/setup.sh"
+  }
+}
